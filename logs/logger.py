@@ -25,7 +25,7 @@ class NXTLogger:
         if platform.system() == 'Linux':
             self.log_dir = "/var/log/nxt"
         elif platform.system() == 'Windows':
-            self.log_dir = "C:\\Users\\stw\\workspace\\emv-testtool\\logs"
+            self.log_dir = "../logs"
         else:
             self.log_dir = "../logs"
         logger = logging.getLogger(self.component)
